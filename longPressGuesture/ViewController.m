@@ -30,10 +30,9 @@
     
     //设置允许移动的位移
     _longPressGuesture.allowableMovement = 100.0f;
-    
+
     //设置长按的时间
     _longPressGuesture.minimumPressDuration = 2.0f;
-    
     [self.view addGestureRecognizer:_longPressGuesture];
     
     [self.view addSubview:_btn];
